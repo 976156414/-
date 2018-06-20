@@ -1,0 +1,184 @@
+body{
+	display: block;
+}
+.header{
+	background: #0590d7;
+}
+.pull-left img{
+	display: block;
+    width: 100%;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.pull-left img{
+		width: 600px;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.pull-left img{
+		width: 400px;
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 768px){
+	.pull-left img{
+		width: 215px;
+		margin-top: 8px;
+	}
+}
+
+ 
+/*.pull-left img{
+	border: 1px solid red;
+}*/
+.icon-bar{
+	background: #fff;
+}
+.navbar-toggle{
+	margin-right: -10px;
+}
+.header .pull-right{
+	margin-top: 35px;
+}
+.header .pull-right li{
+	padding-right: 20px;
+}
+.header .pull-right li a{
+	color: #fff;
+}
+.header .pull-right li a:hover{
+	background: #0590d7;
+}
+.topnav{
+	background: #1e9bdb;
+}
+.navbar-default a{
+	color: #fff;
+}
+.topnav li a{
+	width: 155px;
+	text-align: center;
+	color: #fff;
+}
+.topnav li a:hover{
+	background: #006699;
+}
+.dropdown-menu li{
+	background: #1e9bdb;
+	
+}
+.dropdown-menu li a{
+	font-size: 17px;
+}
+/*.dropdown-menu li{
+	border: 1px solid red;
+
+}*/
+@media screen and (max-width: 1200px) {
+	.topnav li a{
+		width: 120px;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.topnav li a{
+		width: 95px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.topnav li a{
+		width: 100%;
+		text-align: left;
+	}
+}
+/*轮播图*/
+.swiper-slide img{
+		width: 100%;
+}
+#d1{
+	/*height: 100px;*/
+	border:2px solid #3c97f5;
+	background: #e5fbfc;
+	border-radius: 5%;
+}
+#q1{
+	color: #33ccff;
+	border-bottom: 2px solid #3c97f5;
+}
+#q2{
+	text-align:right;
+	display: block;
+}
+#d2{
+	animation: mymover 1s infinite;
+	box-shadow: 2px 2px 2px;
+	border:2px solid #3c97f5;
+	background: #e5fbfc;
+	height: 60px;
+	cursor:pointer;
+	list-style: none;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+@keyframes mymover{
+	0%{color: #0099ff;}
+	25%{color: #99FFFF;}
+	50%{color: #EEC900;}
+	75%{color: #9933cc;}
+	100%{color:#0099ff;}
+}
+#d2 a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*校园风采*/
+#q5{
+	background: #ebebeb;
+}
+#sm{
+        overflow:hidden;
+}
+#d4{
+	color: #33ccff;
+	font-family: '微软雅黑';
+	padding-left: 10px;
+	border-bottom: 2px solid #3c97f5;
+}
+/*页脚*/
+#d5{
+	list-style: none;
+}
+#d5 .d6{
+	color: #ff7639;
+}
+#d5 li a{
+	text-decoration: none;
+	color:#c3c6eff;
+	padding-left: 20px;
+}
+#d5 li a:hover{
+	color: yellow;
+}
+#d7{
+	width: 100px;
+}
+#d7 h6{
+	width: 150px;
+	/*color: #33ccff;*/
+}
+#d8 a{
+	text-decoration: none;
+}
+#d8 p{
+	font-size: 12px;
+}
+#d9 button{
+	height: 40px;
+	width: 100px;
+	background: #b8f4fb;
+	border:none;
+	/*margin-left: 500px;*/
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
